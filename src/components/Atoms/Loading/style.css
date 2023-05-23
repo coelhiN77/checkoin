@@ -1,0 +1,50 @@
+@keyframes bounce-ball1 {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes bounce-ball2 {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes bounce-ball3 {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.animate-bounce-ball1 {
+  animation: bounce-ball1 1s infinite;
+  animation-delay: 0s;
+}
+
+.animate-bounce-ball2 {
+  animation: bounce-ball2 1s infinite;
+  animation-delay: 0.2s;
+}
+
+.animate-bounce-ball3 {
+  animation: bounce-ball3 1s infinite;
+  animation-delay: 0.4s;
+}
